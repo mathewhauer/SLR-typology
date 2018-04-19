@@ -1,0 +1,47 @@
+---
+title: An Example R Markdown Document
+subtitle: (A Subtitle Would Go Here if This Were a Class)
+author: | 
+ | Mathew E. Hauer^1^ & Author^2^
+institute:  | 
+ | ^1^University of Georgia | ^2^University
+titlegraphic1: logo-uga-color.eps
+titlegraphic2: florida-state-university-logo.png
+fontsize: 10pt
+output:
+ beamer_presentation:
+    template: ../PRESENTATIONS/presentation_template.tex
+    keep_tex: FALSE
+make149: true
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+

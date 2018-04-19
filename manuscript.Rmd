@@ -1,0 +1,72 @@
+---
+output: 
+  pdf_document:
+    number_sections: true
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: LATEX/svm-latex-ms.tex
+title: "Declarative Title"
+thanks: "The data and code that supports this analysis are available in the supplementary materials."
+author:
+- name: Mathew E. Hauer ^1^*
+  affiliation: University of Georgia
+# - name: Carl P. Schmertmann ^2,3^
+#   affiliation: Florida State University
+
+abstract: "This is a short abstract."
+# keywords: ""
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+# fontfamily: mathpazo
+fontsize: 12pt
+spacing: double
+bibliography: LATEX/mybibfile.bib
+biblio-style: aspr
+# use apsr or nature
+header-includes:
+- \usepackage[all]{nowidow}
+- \usepackage{rotating}
+- \usepackage{amsmath}
+- \usepackage{fancyhdr}
+- \usepackage{tabularx}
+- \usepackage{lineno}
+- \pagestyle{fancy}
+- \fancyhead{}
+- \fancyhead[C]{Running Title}
+- \linenumbers
+---
+
+\* Corresponding author. hauer\@uga.edu. p: 706-542-9369.
+
+^1^ Carl Vinson Institute of Government, University of Georgia. 201 N. Milledge Ave. Athens, GA USA 30602.
+
+<!-- ^2^ Department of Economics, Florida State University. -->
+
+<!-- ^3^ Center for Demography and Population Health, Florida State University. -->
+
+\newpage
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
