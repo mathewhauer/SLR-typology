@@ -14,7 +14,7 @@ Abstract Goes Here
 
 # Descriptive figure
 # ![Main Figure](FIGURES/countymap.png "Main Figure")
-# *Projected numeric population changes for the five SSPs between 2020 and 2100 for counties in the continental United States.*
+*Description of figure.*
 
 
 
