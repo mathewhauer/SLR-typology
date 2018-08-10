@@ -13,7 +13,7 @@ Here I provide the code for:  [**MANUSCRIPT TITLE**](https://github.com/mathewha
 Abstract Goes Here
 
 # Descriptive figure
-# ![Main Figure](FIGURES/countymap.png "Main Figure")
+![Main Figure](FIGURES/countymap.png "Main Figure")
 *Description of figure.*
 
 
