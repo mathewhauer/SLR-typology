@@ -10,8 +10,8 @@ output:
 title: "Declarative Title"
 thanks: "The data and code that supports this analysis are available in the supplementary materials."
 author:
-- name: Mathew E. Hauer ^1^*
-  affiliation: University of Georgia
+- name: Mathew E. Hauer ^1,2^*
+  affiliation: Florida State University
 # - name: Carl P. Schmertmann ^2,3^
 #   affiliation: Florida State University
 
@@ -38,20 +38,28 @@ header-includes:
 - \linenumbers
 ---
 
-\* Corresponding author. hauer\@uga.edu. p: 706-542-9369.
+*Corresponding author. mehauer\@fsu.edu. p: 850-644-7103
 
-^1^ Carl Vinson Institute of Government, University of Georgia. 201 N. Milledge Ave. Athens, GA USA 30602.
+^1^ Department of Sociology, Florida State University. 113 Collegiate Loop. Tallahassee, FL USA 32306.
 
-<!-- ^2^ Department of Economics, Florida State University. -->
+^2^ Center for Demography and Population Health, Florida State University.
 
-<!-- ^3^ Center for Demography and Population Health, Florida State University. -->
+<!-- ^3^ Department of Economics, Florida State University. -->
+
+
 
 \newpage
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+read_chunk('SCRIPTS/000-Libraries.R')
+
 ```
 
-## R Markdown
+```{r libraries, include=FALSE}
+```
+
+# Introduction
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
