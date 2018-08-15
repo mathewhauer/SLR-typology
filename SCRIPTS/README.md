@@ -10,6 +10,8 @@ This folder contains all scripts necessary to replicate these population project
 
 `/003-SampleFunction.R` - contains an example script necessary to generate part of the analysis. 
 
+`/001-hammer_national.R` - produces historic back-casts of population for Census Block Groups for the period 1940-2010. 
+
 # Correspondence
 For any issues with the functionality of the script please create an issue.
 

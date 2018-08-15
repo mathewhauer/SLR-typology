@@ -1,10 +1,10 @@
 # Introduction
-Here I provide the code for:  [**MANUSCRIPT TITLE**](https://github.com/mathewhauer/REPO/blob/master/maintext.pdf)
+Here I provide the code for:  [**MANUSCRIPT TITLE**](https://github.com/mathewhauer/SLR-typology/blob/master/manuscript.pdf)
 
 ### Citation
 
 
-> Hauer, M.E. et al. *Open Science Framework.* (DOI 10.17605/) (YEAR ACCESSED).
+> Hauer, M.E. et al. *Journal.* (DOI 10.17605/) (YEAR ACCESSED).
 
 
 
@@ -21,7 +21,7 @@ Abstract Goes Here
 # Organization
 - `SCRIPTS`  — Scripts and output for figures included in the documentation.
 - `DATA`  — Initial data resources, unprocessed.
-- `DATA-PROCESSED` — Processed data used to create the projections.
+- `DATA-PROCESSED` — Post-processed data used in the analysis.
 - `FIGURES` — output figures.
 
 # Use
