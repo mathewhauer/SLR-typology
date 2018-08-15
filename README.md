@@ -4,7 +4,7 @@ Here I provide the code for:  [**MANUSCRIPT TITLE**](https://github.com/mathewha
 ### Citation
 
 
-> Hauer, M.E. *Open Science Framework.* (DOI 10.17605/OSF.IO/9YNFC) (YEAR ACCESSED).
+> Hauer, M.E. et al. *Open Science Framework.* (DOI 10.17605/) (YEAR ACCESSED).
 
 
 
@@ -13,7 +13,7 @@ Here I provide the code for:  [**MANUSCRIPT TITLE**](https://github.com/mathewha
 Abstract Goes Here
 
 # Descriptive figure
-![Main Figure](FIGURES/countymap.png "Main Figure")
+![Main Figure](FIGURES/figure.png "Main Figure")
 *Description of figure.*
 
 
